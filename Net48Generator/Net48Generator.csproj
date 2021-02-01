@@ -6,8 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SourceGenerator\SourceGenerator.csproj"
+    <!--<ProjectReference Include="..\SourceGenerator\SourceGenerator.csproj"
                       ReferenceOutputAssembly="false"
-                      OutputItemType="Analyzer" />
+                      OutputItemType="Analyzer" />-->
+    <PackageReference Include="SourceGenerator" Version="1.0.0" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+
   </ItemGroup>
 </Project>

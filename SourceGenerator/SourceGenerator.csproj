@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>SourceGenerator</PackageId>
+    <Authors>...</Authors>
+    <Description>...</Description>
+    <Company>...</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackBuildOutput>true</PackBuildOutput>
+    <Copyright>...</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>dotnet</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <GenerateRepositoryUrlAttribute>true</GenerateRepositoryUrlAttribute>
+    <PackOnBuild>true</PackOnBuild>
+    <PackFolder>analyzers\cs</PackFolder>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +25,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="3.8.0" />
+    <PackageReference Include="NuGetizer" Version="0.4.11" />
   </ItemGroup>
 
 </Project>
